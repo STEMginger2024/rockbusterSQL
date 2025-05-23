@@ -1,3 +1,4 @@
+-- SELECT all descriptive statistics from numerical fields as min, max, and mean (average); select mode for nonnumerical variable
 SELECT AVG(rental_duration) AS avg_rental_duration,
 MIN(rental_duration) AS min_rental_duration,
 MAX(rental_duration) AS max_rental_duration,
